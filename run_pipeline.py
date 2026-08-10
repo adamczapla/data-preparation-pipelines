@@ -6,7 +6,7 @@ import nbformat
 pipeline = [
     "01_import.ipynb",
     "02_cleaning.ipynb",
-    #"03_transformation.ipynb",
+    "03_transformation.ipynb"
 ]
 
 def execute_notebook(notebook_path: Path):
